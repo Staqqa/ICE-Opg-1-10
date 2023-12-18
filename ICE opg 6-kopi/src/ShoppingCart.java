@@ -4,8 +4,6 @@ import java.util.Iterator;
 public class ShoppingCart {
     private ArrayList<Item> itemList;
 
-//tror du skal intialisere ItemList, måske lav en arraylist som du gjorde på opg 2-3.
-
     public ShoppingCart(String itemList) {
         this.itemList = new ArrayList<>();
     }
