@@ -7,7 +7,7 @@ public class ShoppingCart {
     public ShoppingCart(String itemList) {
         this.itemList = new ArrayList<>();
     }
-    //lavet en reminder til mig selv glemte at slet..
+   
 
     public void addItem(Item item) {
         itemList.add(item);
